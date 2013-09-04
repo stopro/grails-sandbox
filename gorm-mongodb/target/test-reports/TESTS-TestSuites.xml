@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="rizhao-WS" id="0" name="PersonTests" package="info.stopro" tests="1" time="0.073" timestamp="2013-09-03T23:11:31">
+      <properties />
+
+      <testcase classname="info.stopro.PersonTests" name="testPersist" time="0.071" />
+
+      <system-out><![CDATA[--Output from testPersist--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testPersist--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

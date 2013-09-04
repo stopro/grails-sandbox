@@ -16,10 +16,10 @@ class ProductController {
         params.max = Math.min(max ?: 10, 100)
 	println 'call list'
         def all = Product.list(params)
-	withFormat {
-	  html { [productList: all, productTotal: Product.count()]}
+	request.withFormat {
 	  xml { render all as XML }
 	  json { render all as JSON }
+	  html { [productList: all, productTotal: Product.count()]}
 	}
     }
 
