@@ -84,7 +84,7 @@
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="page-body" role="main">
 			<h1>Welcome to Famous Quotes</h1>
-			<p>Hi, almost everyone think they know everything, but in fact, only few wise men see tht truth
+			<p>Hi, almost everyone think they know everything, but in fact, only few wise men see the truth
 			light. From their anecdote and speech, luckily, we can also catch sight of the true world.</p>
 			<div id="controller-list" role="navigation">
 			  <h2>Today's Quote:</h2>

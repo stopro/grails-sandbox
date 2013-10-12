@@ -125,6 +125,10 @@ img {
 	color: #255b17;
 }
 
+.footer p {
+    text-align: center;
+}
+
 .spinner {
 	background: url(../images/spinner.gif) 50% 50% no-repeat transparent;
 	height: 16px;

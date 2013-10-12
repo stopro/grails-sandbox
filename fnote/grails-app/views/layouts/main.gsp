@@ -21,13 +21,11 @@
 		<r:layoutResources />
 	</head>
 	<body>
-	  <!--
-	      <div id="grailsLogo" role="banner"><a href="http://grails.org"><img src="${resource(dir: 'images', file:
-		'grails_logo.png')}" alt="Grails"/></a></div>
-	  -->
 		<div id="fnoteLogo" role="banner"><a href="http://www.fnote.org"><img src="${resource(dir: 'images', file: 'fnote_logo.jpeg')}" alt="FQuotes"/></a></div>
 		<g:layoutBody/>
-		<div class="footer" role="contentinfo"></div>
+		<div class="footer" role="contentinfo">
+		  <p>© 2013 FNote</p>
+		</div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 		<g:javascript library="application"/>
 		<r:layoutResources />
